@@ -23,3 +23,9 @@ const Balance = ({ transactions }) => {
 };
 
 export default Balance;
+
+
+
+
+
+

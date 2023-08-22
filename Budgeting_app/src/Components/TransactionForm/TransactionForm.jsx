@@ -19,7 +19,11 @@ export default function TransactionForm({addTransaction}) {
     <div >
       <form className="form-container" onSubmit={handleSubmit}>
         <label> Amount:
-        <input type="text" required value={amount} onChange={(event) => setAmount(event.target.value)}></input>
+        <input 
+        type="number" 
+        required 
+        value={amount} 
+        onChange={(event) => setAmount(event.target.value)}></input>
         </label>
         <label> Description:
             <input type="text" required value={description} onChange={(event) => setDescription(event.target.value)}></input>
